@@ -1,4 +1,4 @@
-//not ins use
+//not in use
 
 var DATA
 
