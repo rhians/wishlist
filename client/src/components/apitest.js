@@ -1,5 +1,3 @@
-//https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
-
 import React, { component } from 'react';
 import apitest from '../styling/apitest.css';
 
