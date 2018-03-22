@@ -1,5 +1,4 @@
-///I feel this should work and I don't quite see why it doesn't, the same code (I checked this like 100 times)
-//worked in a coupl eof other things I made *screaming ghost face*
+//I feel this should work and I don't quite see why it doesn't as this worked in a couple of other things I made 
 
 import React, { component } from 'react';
 import logo from './ss.png';
