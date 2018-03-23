@@ -14,15 +14,14 @@ componentWillMount(){
   .then(results => {
     return results.json();
   }).then(data => {
-    let image = data.results.map((suggestion) => {
+    let product = data.results.map((product) => {
       return(
-        <div key={pic.results}>
-        <img src={pic.results.medium} />
+        <div key={product.product}>
         </div>
       )
     })
-    this.setState({suggestion: suggestion});
-    console.log("state", this.state.suggestion);
+    this.setState({product: product});
+    console.log("state", this.state.product);
   })
 }
 
@@ -32,11 +31,11 @@ render() {
     //create containers
     <div classname="container1">
     <div className="container2">
-    {this.state.suggestion}
+    {this.state.product}
     </div>
     </div>
     </ul>
-  )
+  )}
 }
 
 export default apidata;
